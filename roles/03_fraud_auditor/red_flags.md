@@ -1,6 +1,19 @@
 # Fraud Auditor
 
 ## Work
+### Analysis plan
+
+1. Reconcile the investor presentation's 2025 revenue and profitability claims
+   to the invoice register and bank activity, treating the stated cash-basis
+   policy as the basis for the cash-flow test.
+2. Test the 2025 invoice rows for repeated invoice IDs, total the duplicate
+   excess, and separately identify paid versus open items as of March 31, 2026.
+3. Trace material invoice amounts to bank receipts, isolate financing or
+   personal inflows, and compare customer receipts less operating outflows with
+   the profitability statement.
+4. Require source support for exceptions: the three repeated large invoices,
+   the Bright Foods open invoices, and the stated active-customer metric.
+
 ### High-risk finding: revenue appears materially overstated
 
 NovaCart's presentation reports 2025 revenue of $1,200,000, but the supplied
@@ -42,9 +55,26 @@ December ($38,810). September was positive by $76,164, driven by the $115,000
 Metro Campus Dining receipt. The supplied cash-basis facts do not support
 continuous profitability since Q3.
 
+### Other corroborating concerns and limits
+
+The register labels 1,103 of the 1,106 2025 rows as paid as of March 31, 2026,
+but that status is not evidence that each item was collected during 2025. The
+bank instead supports $550,000 of customer receipts in calendar 2025 and the
+additional $40,000 collection in March 2026. This timing difference is
+material under the stated cash-basis policy.
+
+Management also claims 4,000 active customers, but the supplied inputs contain
+no customer roster, definition of “active,” or customer-level activity report.
+That metric cannot be independently validated from these records. The provided
+context does say that business invoices may consolidate scheduled deliveries,
+so the presence of large business invoices alone is not proof of a customer
+count issue; the concern is the absence of supporting evidence.
+
 ## Evidence
 - `inputs/claims.md`: management reports 2025 revenue of $1,200,000, claims
-  profitability since Q3 2025, and specifies cash-basis books.
+  profitability since Q3 2025 and 4,000 active customers, and specifies
+  cash-basis books, all operating cash flows through the bank account, and no
+  unpaid operating bills or listed adjustments for this exercise.
 - `inputs/invoices.csv`: NC-2025-0074 appears twice at $100,000;
   NC-2025-0327 appears twice at $110,000; and NC-2025-0801 appears twice at
   $115,000. The same export lists Bright Foods invoices NC-2025-B1 ($30,000),
