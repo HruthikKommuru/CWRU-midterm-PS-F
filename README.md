@@ -10,12 +10,15 @@ Recommend invest, pass, or invest with conditions, using the books.
 - inputs/bank.csv: bank transactions from 2024 through March 2026.
 
 ## Roles
+Team size: 5. The leader confirms who has joined before the final build.
+
 | Role | Work file | Job |
 | --- | --- | --- |
 | Accountant | roles/01_accountant/matching.md | Match each invoice to a bank deposit. List what does not match. |
 | Financial Analyst | roles/02_financial_analyst/profit.md | Calculate revenue, costs, profit, and growth for 2024 and 2025. |
 | Fraud Auditor | roles/03_fraud_auditor/red_flags.md | Examine the entries and report concerns with evidence. |
 | Investment Manager (leader) | roles/04_investment_manager/forecast.md | Build a next-12-month forecast and recommend an investment decision. |
+| Customer Analyst | roles/05_customer_analyst/customers.md | Describe the customers, their buying patterns, and what they mean for the business. |
 
 ## Rules
 Edit your own role folder. Keep inputs/ and shared/ read-only. Follow AGENTS.md for branches, review, and merging. The Investment Manager is the team leader.
