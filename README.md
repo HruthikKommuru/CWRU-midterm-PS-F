@@ -24,11 +24,12 @@ Hidden problems are in the inputs. Finding them is part of your score.
 Use only files in inputs/. Prove your answer is right.
 
 ## Timeline
-- 0–10 minutes: read and make branches.
-- 10–50: do your role.
-- 50–60: merge.
-- 60–80: leader builds final/, team reviews.
-- 80–90: rehearse.
+- Before the clock (if you can): fork, clone, open Codex.
+- 0-5 read the brief and join your role
+- 5-45 do your role (say "done" by minute 45)
+- 45-55 everyone merges
+- 55-80 leader builds final/, team reviews
+- 80-90 rehearse the 5-minute talk
 
 ## Final work
 The leader creates final/memo.md: one page with the decision, numbers, and every red flag; and final/presentation_outline.md: a five-minute presentation.
