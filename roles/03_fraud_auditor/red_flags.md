@@ -1,6 +1,7 @@
 # Fraud Auditor
 
 ## Work
+
 ### Analysis plan
 
 1. Reconcile the investor presentation's 2025 revenue and profitability claims
@@ -71,6 +72,7 @@ so the presence of large business invoices alone is not proof of a customer
 count issue; the concern is the absence of supporting evidence.
 
 ## Evidence
+
 - `inputs/claims.md`: management reports 2025 revenue of $1,200,000, claims
   profitability since Q3 2025 and 4,000 active customers, and specifies
   cash-basis books, all operating cash flows through the bank account, and no
@@ -89,6 +91,7 @@ count issue; the concern is the absence of supporting evidence.
   $1,200,000.
 
 ## Handoff
+
 Do not rely on the $1,200,000 revenue claim or the profitability assertion for
 an investment decision until management provides source contracts, corrected
 invoices, and a bank-to-revenue reconciliation. Verify the three large customer
